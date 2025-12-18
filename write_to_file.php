@@ -2,8 +2,9 @@
 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
 $txt = "John Doe\n";
 fwrite($myfile, $txt);
-$txt = "Jantharaporn\n";
+$txt = "Jantharaporn and 119\n";
 fwrite($myfile, $txt);
 fclose($myfile);
+
 echo "บันทึกข้อมูลเรียบร้อย";
 ?>
